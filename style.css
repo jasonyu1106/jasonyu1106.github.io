@@ -19,10 +19,12 @@ body {
 
 .hero h1{
 	font-size: 3em;
+	margin-bottom: 0.5em;
 }
 
 .hero h2{
-	font-size: 5em:
+	font-size: 2em;
 }
+
 
 
