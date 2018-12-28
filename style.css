@@ -1,10 +1,11 @@
 body {
  margin: 0;
  font-family: sans-serif;
+ overflow: hidden;
 }
 
 .hero {
-	/* background-image: url("polygon-background.jpg"); */
+	background-image: url("polygon-background.jpg");
 	background-color: #87E3F6;
 	background-size: cover;
 	background-position: center center;
