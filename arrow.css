@@ -52,14 +52,14 @@ base: 0.6rem;
 	}
  33.3% {
   opacity: 1;
-  transform: translateY($base * 3.8);
+  transform: translateY(base * 3.8);
  }
  66.6% {
   opacity: 1;
-  transform: translateY($base * 5.2);
+  transform: translateY(base * 5.2);
  }
  100% {
   opacity: 0;
-  transform: translateY($base * 8) scale(0.5);
+  transform: translateY(base * 8) scale(0.5);
  }
 }
