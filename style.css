@@ -50,6 +50,27 @@ body {
 	animation: move-arrow 3s ease-out infinite;
 }	
 
+.arrow:before,
+.arrow:after {
+ content: '';
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 50%;
+ background: #2c3e50;
+}
+
+.arrow:before {
+ left: 0;
+ transform: skewY(30deg);
+}
+
+.arrow:after {
+ right: 0;
+ width: 50%;
+ transform: skewY(-30deg);
+}
+
 @keyframes downarrow {
 	0%{
 	transform: translateY(0);
