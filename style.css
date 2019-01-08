@@ -23,8 +23,7 @@ body {
 }
 
 .hero-inner{
-	display: flex;
-	height: 100%;
+	position: relative;
 }
 .hero h1{
 	font-size: 4em;
