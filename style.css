@@ -23,16 +23,17 @@ body {
 }
 
 .hero h1{
-	font-size: 4em;
+	font-size: 10vmin;
 	margin-top: 0;
-	margin-bottom: 0.5em;
+	margin-bottom: 2vh;
 }
 
 .hero h2{
-	font-size: 3em;
+	font-size: 8vmin;
 }
 
 .container{
+	margin-top: 10vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
