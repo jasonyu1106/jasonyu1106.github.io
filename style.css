@@ -22,6 +22,9 @@ body {
 	background-attachment: fixed;
 }
 
+.hero-inner{
+	height: 100%;
+}
 .hero h1{
 	font-size: 4em;
 	margin-top: 0;
