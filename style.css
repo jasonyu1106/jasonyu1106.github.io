@@ -22,9 +22,6 @@ body {
 	background-attachment: fixed;
 }
 
-.hero-inner{
-	position: relative;
-}
 .hero h1{
 	font-size: 4em;
 	margin-top: 0;
