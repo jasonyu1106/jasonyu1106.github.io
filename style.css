@@ -23,6 +23,7 @@ body {
 }
 
 .hero-inner{
+	display: flex;
 	height: 100%;
 }
 .hero h1{
