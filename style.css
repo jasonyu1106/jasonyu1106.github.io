@@ -1,12 +1,10 @@
 body {
- margin: 0;
  font-family: sans-serif;
 }
 
 .hero {
 	width: 100vw;
     height: 100vh;
-	padding-top: 10vmin;
 	
 	display: flex;
     justify-content: center;
