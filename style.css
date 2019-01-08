@@ -42,7 +42,7 @@ body {
 .arrow {
 	position: absolute;
 	width: 8vmin;
-	height: 2.5vmin;
+	height: 4vmin;
 	opacity: 0;
 	transform: scale(0.3);
 }	
