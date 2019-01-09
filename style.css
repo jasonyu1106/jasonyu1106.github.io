@@ -32,13 +32,19 @@ body {
 	font-size: 6vmin;
 }
 
-
+.projects h1{
+	font-size: 8vmin;
+}
 
 .title-bar{
 	width: 100%;
 	height: 10vh;
 	
+	display: flex;
+    justify-content: center;
+    align-items: center;
 	color: white;
+	
 	background-color: #4285F4;
 }
 
