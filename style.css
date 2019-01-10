@@ -77,6 +77,10 @@ body {
 	border-radius: 15px 50px 30px;
 }
 
+.menu:hover{
+	opacity: 0.8;
+}
+
 .arrow {
 	position: absolute;
 	width: 6vmin;
