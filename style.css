@@ -86,14 +86,17 @@ body {
 	width: 100%;
 	color: black;
 	opacity:0.6;
-	font-size: 4vmin;
+	font-size: 3vmin;
 	font-weight: bold;
 	background-color: #ffffff;
-	text-decoration: none;
 }
 
 .tab:hover{
 	background-color: #D3D3D3;	
+}
+
+.tab:link{
+	text-decoration: none;
 }
 
 .arrow {
