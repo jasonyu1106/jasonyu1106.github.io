@@ -50,7 +50,7 @@ body {
 
 .projects{
 	width: 100%;
-	min-height: 90vh;
+	height: 90%;
 	
 	background-image: url("minimal-background.jpg");
 	background-color: #000000;
