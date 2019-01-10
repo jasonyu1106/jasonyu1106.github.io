@@ -89,6 +89,8 @@ body {
 	font-size: 3vmin;
 	font-weight: bold;
 	background-color: #ffffff;
+	align-content: center;
+	justify-content: center;
 }
 
 .tab:hover{
