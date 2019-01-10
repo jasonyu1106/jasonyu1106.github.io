@@ -84,10 +84,12 @@ body {
 
 .tab{
 	width: 100%;
-	height: 10vh;
 	color: black;
 	opacity:0.6;
+	font-size: 4vmin;
+	font-weight: bold;
 	background-color: #ffffff;
+	text-decoration: none;
 }
 
 .tab:hover{
