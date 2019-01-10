@@ -97,9 +97,10 @@ body {
 	background-color: #D3D3D3;	
 }
 
-.tab:link{
+.tab a{
 	text-decoration: none;
 }
+	
 
 .arrow {
 	position: absolute;
