@@ -66,6 +66,15 @@ body {
 	align-items: center;
 }
 
+.menu{
+	width: 25vmin;
+	height: 100vh;
+	
+	display: flex;
+	flex-direction: column;
+	background-color: #000000;
+}
+
 .arrow {
 	position: absolute;
 	width: 6vmin;
