@@ -89,14 +89,14 @@ body {
 	font-size: 3vmin;
 	font-weight: bold;
 	text-align: center;
-	margin: auto;
+	line-height: 10vh;
 }
 
 .tab:hover{
 	background-color: #D3D3D3;	
 }
 
-.tab a{
+a.tab{
 	text-decoration: none;
 }
 	
