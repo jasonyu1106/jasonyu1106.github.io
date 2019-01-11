@@ -59,6 +59,12 @@ body {
 	background-repeat: no-repeat;
 }
 
+.content{
+	display: flex;
+	width: 75vmin;
+	height: 100%;
+}
+
 .container{
 	margin-top: 10vh;
 	display: flex;
@@ -107,6 +113,11 @@ a{
 	height: 1vh;
 	background-color: #D3D3D3
 }
+
+.colourOn{
+	background-color: #4285F4;
+}
+
 
 .arrow {
 	position: absolute;

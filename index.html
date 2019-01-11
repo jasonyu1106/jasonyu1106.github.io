@@ -24,12 +24,43 @@
 			</div>
 			<section class= "projects">
 				<div class="menu">
-					<a href="javascript:void(0)">
+				
+					<a href="javascript:void(0)" onclick="openCity(event, 'Home');">
 						<div class="tab"; style="max-height:9vh; border-radius:0px 30px 0px 0px">Home</div>
 						<div class="bar"></div>
 					</a>
+					
+					<a href="javascript:void(0)" onclick="openCity(event, 'Arm');">
+						<div class="tab">Tetrix Robotic Arm</div>
+						<div class="bar"></div>
+					</a>
+					
 				</div>
+				
+				<div id="Home" class="content">
+					<h1>MAIN</h1>
+				</div>
+				
+				<div id="Arm" class="content" style="display:none">
+					<h1>TEST</h1>
+				</div>
+
 			</section>
-		</main>		
+		</main>	
+		<script>
+		function openCity(evt, projectName) {
+		  var i, x, tablinks;
+		  x = document.getElementsByClassName("content");
+		  for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("bar");
+		  for (i = 0; i < x.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" colourOn", "");
+		  }
+		  document.getElementById(projectName).style.display = "flex";
+		  evt.currentTarget.firstElementChild.className += " colourOn";
+		}
+		</script>
     </body>
 </html>
