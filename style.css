@@ -52,12 +52,18 @@ body {
 .projects{
 	width: 100%;
 	height: 90vh;
+}
+
+.projects-container{
+	width:100%;
+	height: 100%;
 	
 	background-image: url("minimal-background.jpg");
 	background-color: #000000;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 
 .content{
 	display: flex;
