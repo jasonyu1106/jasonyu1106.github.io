@@ -75,7 +75,6 @@ body {
 .menu{
 	width: 25vmin;
 	height: 100%;
-	
 	display: flex;
 	opacity: 0.5;
 	flex-direction: column;
@@ -90,6 +89,7 @@ body {
 
 .tab{
 	display: flex;
+	flex-grow: 1;
 	width: 100%;
 	color: black;
 	font-size: 3vmin;
