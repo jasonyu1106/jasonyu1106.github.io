@@ -68,7 +68,7 @@ body {
 
 .content{
 	display: flex;
-	width: 75vmin;
+	width: calc(100vw-25vmin);
 	height: 100%;
 	padding: 1vmin;
 }
