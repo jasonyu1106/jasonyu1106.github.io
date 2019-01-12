@@ -104,6 +104,7 @@ body {
 	font-weight: bold;
 	justify-content: center;
     align-items: center;
+	text-align: center;
 }
 
 .tab:hover{
