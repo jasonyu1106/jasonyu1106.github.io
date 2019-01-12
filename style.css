@@ -174,7 +174,8 @@ a{
 	flex-flow: column wrap;
 	width: 50vw;
 	height: 75vh;
-	position: relative;
+	align-items: center;
+	justify-content: center;
 	margin: auto;
 }
 
@@ -215,9 +216,11 @@ a{
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
-  position: absolute;
+  
   bottom: 8px;
   width: 100%;
+  align-items: center;
+ justify-content: center;
   text-align: center;
 }
 
