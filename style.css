@@ -170,9 +170,12 @@ a{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+	display: flex;
+	flex-flow: column wrap;
+	width: 50vw;
+	length: 75vh;
+	position: relative;
+	margin: auto;
 }
 
 /* Hide the images by default */
