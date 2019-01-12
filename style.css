@@ -173,7 +173,7 @@ a{
 	display: flex;
 	flex-flow: column wrap;
 	width: 50vw;
-	length: 75vh;
+	height: 75vh;
 	position: relative;
 	margin: auto;
 }
