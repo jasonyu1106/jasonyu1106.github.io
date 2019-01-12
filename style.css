@@ -97,7 +97,7 @@ body {
 .tab{
 	display: flex;
 	width: 100%;
-	flex: 1;
+	flex-grow: 1;
 	color: black;
 	font-size: 3vmin;
 	font-weight: bold;
