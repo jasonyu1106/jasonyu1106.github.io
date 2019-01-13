@@ -170,6 +170,7 @@ a{
 
 /* Slideshow container */
 .slideshow-container {
+	box-sizing: border-box;
 	width: 50vw;
 	position: relative;
 	margin: auto;
@@ -177,12 +178,14 @@ a{
 
 /* Hide the images by default */
 .mySlides {
+	box-sizing: border-box;
 	position: relative;
 	display: none;
 }
 
 /* Next & previous buttons */
 .prev, .next {
+	box-sizing: border-box;
 	cursor: pointer;
 	position: absolute;
 	top: 50%;
@@ -210,6 +213,7 @@ a{
 
 /* Caption text */
 .text {
+	box-sizing: border-box;
   color: #f2f2f2;
   font-size: 2vh;
   position: absolute;
@@ -233,6 +237,7 @@ a{
 
 /* The dots/bullets/indicators */
 .dot {
+	box-sizing: border-box;
   cursor: pointer;
   height: 15px;
   width: 15px;
