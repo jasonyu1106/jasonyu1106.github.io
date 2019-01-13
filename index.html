@@ -13,7 +13,7 @@
 			</div>
 				
 			<div class="container">
-			<a href="#projects" class="arrow down"; style="color:transparent">Down</a>
+			<a href="javascript:void(0)" onclick="scrollTo('projects') class="arrow down"; style="color:transparent">Down</a>
 			</div>
 		
         </section>
@@ -111,6 +111,10 @@
 			</section>
 		</main>	
 		<script>
+		function scrollTo(id) {
+			document.getElementById(id).scrollIntoView({behavior: 'smooth'});			
+		}
+		
 		function openCity(evt, projectName) {
 		  var i, x, tablinks;
 		  x = document.getElementsByClassName("content");
