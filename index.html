@@ -13,12 +13,12 @@
 			</div>
 				
 			<div class="container">
-			<a href="javascript:void(0)" onclick="scroll();" class="arrow down" style="color:transparent">Down</a>
+			<a href="javascript:void(0)" onclick="scrollTo('projects');" class="arrow down" style="color:transparent">Down</a>
 			</div>
 		
         </section>
 		<main>
-			<div id="projects"; class="title-bar">
+			<div id="projects" class="title-bar">
 					<h1>Projects</h1>
 			</div>
 			<section class= "projects">
@@ -111,9 +111,8 @@
 			</section>
 		</main>	
 		<script>
-		function scroll() {
-			var elmnt = document.getElementById("projects");
-			elmnt.scrollIntoView();			
+		function scroll(id) {
+			document.getElementById(id).scrollIntoView();			
 		}
 		
 		function openCity(evt, projectName) {
