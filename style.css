@@ -176,6 +176,12 @@ a{
 	position: relative;
 }
 
+.gallery{
+	display: flex;
+	width: 50%;
+	height: 100%;
+}
+
 /* Hide the images by default */
 .mySlides {
 	box-sizing: border-box;
