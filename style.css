@@ -71,6 +71,7 @@ body {
 	padding: 1vmin;
 	justify-content: center;
 	align-items: center;
+	flex-flow: column wrap;
 }
 
 .menu{
@@ -173,7 +174,6 @@ a{
 	box-sizing: border-box;
 	width: 50vw;
 	position: relative;
-	margin: auto;
 }
 
 /* Hide the images by default */
