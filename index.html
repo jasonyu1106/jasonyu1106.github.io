@@ -13,7 +13,7 @@
 			</div>
 				
 			<div class="container">
-			<a href="javascript:void(0)" onclick="scrollTo('projects');" class="arrow down" style="color:transparent">Down</a>
+			<a href="javascript:void(0)" onclick="scrollTo();" class="arrow down" style="color:transparent">Down</a>
 			</div>
 		
         </section>
@@ -111,8 +111,9 @@
 			</section>
 		</main>	
 		<script>
-		function scrollTo(elmntID) {
-			document.getElementById(elmntID).scrollIntoView(true);			
+		function scrollTo() {
+			var elmnt=document.getElementById("projects");
+			elmnt.scrollIntoView(true);			
 		}
 		
 		function openCity(evt, projectName) {
