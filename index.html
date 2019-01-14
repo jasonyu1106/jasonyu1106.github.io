@@ -3,7 +3,7 @@
 	<head>
 		<title>Jason's Web Portfolio</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="/jasonyu1106.github.io/style.css">
+		<link rel="stylesheet" href="style.css" type="text/css"/>
 	</head>
 	<body>
          <section class="hero">
@@ -52,7 +52,7 @@
 						
 					</div>
 					
-					<div id="Home" class="content">
+					<div id="Home" class="content" style="flex-flow: column wrap">
 						<!-- Slideshow container -->
 							<div class="slideshow-container">
 
@@ -99,8 +99,19 @@
 						<h1>SOLIDWORKS</h1>
 					</div>
 					
-					<div id="Pizza" class="content" style="display:none">
-						<h1>LEGO</h1>
+					<div id="Pizza" class="content" style="display:none; flex-direction: row; justify-content: flex-start;">
+						<div class="gallery">
+							<div class="gallery-image">
+								<img src="PizzaCutterSlideshow.jpg" style="height: 45vmin">
+								<div class="text">Pizza Cutter Assembly</div>
+							</div>						
+							<div class="gallery-image">
+								<img src="RotatingPlatform.jpg" style="height: 33.7vmin">
+								<div class="text">Rotating Base Platform</div>
+							</div>
+						</div>
+						<div class="description">
+						</div>
 					</div>
 					
 					<div id="Arduino" class="content" style="display:none">
