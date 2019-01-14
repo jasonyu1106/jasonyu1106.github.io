@@ -95,6 +95,10 @@ body {
 	width: 50%;
 	height: 100%;
 	padding: 1vmin;
+	padding-right: 3vmin;
+	color: white;
+	font-size: 3vmin;
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 .menu{
